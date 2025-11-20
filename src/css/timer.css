@@ -1,0 +1,30 @@
+.timer-container {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#datetime-picker{
+    height: 25px;
+    border-radius: 5px solid;
+    padding: 5px;
+}
+button[data-start]{
+    height: 40px;
+    padding: 0 20px;
+    border-radius:  8px;
+}
+
+.timer {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 289px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.value {
+    font-size: 30px;
+}
